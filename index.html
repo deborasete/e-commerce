@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoes Shop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+        <nav class="menu">
+            <div class="container">
+                <h1>Shoes Shop</h1>
+                <ul>
+                    <li><a href="#sobre-loja">Sobre a loja</a></li>
+                    <li><a href="#produtos">Produtos</a></li>
+                </ul>   
+                <div class="cart">
+                    <img src="./assets/cart-icon.png" alt="Ícone do Carrinho" class="cart-icon">
+                    <span id="cart-count-header">0</span>
+                </div>
+            </div>            
+        </nav>
+    </header>    
+    <main>
+        <section id="sobre-loja" class="box-conteudo">
+            <div class="container container-box">
+                <img src="./assets/loja.jpg" alt="Imagem de uma loja de acessórios e sapatos">
+                <div class="conteudo">
+                    <h2>Sobre a loja</h2>
+                    <p>
+                        A Shoes Shop é uma loja especializada em sapatos e acessórios que oferece uma experiência de compra online prática e segura. Desde tênis confortáveis à sapatos sociais! Também contamos com uma seleção exclusiva de bolsas, cintos e outros acessórios que complementam qualquer look. A Shoes Shop se dedica a proporcionar aos clientes produtos de alta qualidade e as últimas tendências da moda, tudo sem sair de casa.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="produtos" class="box-produtos">
+            <div class="container-produtos">
+                <h2>Produtos</h2>
+                <ul>
+                    <li>                    
+                        <img src="./assets/salto-vermelho.jpg" alt="Imagem de um salto alto vermelho">
+                        <h3>Salto Alto</h3>
+                        <p>Salto alto vermelho, disponível do tamanho 33 ao 46</p>
+                        <button type="button">Adicionar ao carrinho</button>      
+                        <div class="cart-count">
+                            <p>Itens no Carrinho: <span id="cart-count">0</span></p>
+                        </div>              
+                    </li>
+
+                    <li>                    
+                        <img src="./assets/bota.jpg" alt="Imagem de uma bota">
+                        <h3>Bota Cano Curto</h3>
+                        <p>Bota carno curta na cor preta, disponível do tamanho 33 ao 46</p>
+                        <button type="button">Adicionar ao carrinho</button>  
+                        <div class="cart-count">
+                            <p>Itens no Carrinho: <span id="cart-count">0</span></p>
+                        </div>                  
+                    </li>
+
+                    <li>                    
+                        <img src="./assets/sapato-social.jpg" alt="Imagem de uma sapato social">
+                        <h3>Sapato Social</h3>
+                        <p>Sapato Social na cor marrom, disponível do tamanho 37 ao 46</p>
+                        <button type="button">Adicionar ao carrinho</button>  
+                        <div class="cart-count">
+                            <p>Itens no Carrinho: <span id="cart-count">0</span></p>
+                        </div>                  
+                    </li>
+
+                    <li>              
+                        <img src="./assets/tenis.jpg" alt="Imagem de uma tênis esportivo">
+                        <h3>Tênis Esportivo</h3>
+                        <p>Tênis esportivo cano alto, disponível do tamanho 35 ao 46</p>
+                        <button type="button">Adicionar ao carrinho</button>       
+                        <div class="cart-count">
+                            <p>Itens no Carrinho: <span id="cart-count">0</span></p>
+                        </div>             
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <script src="./main.js"></script>
+</body>
+</html>
